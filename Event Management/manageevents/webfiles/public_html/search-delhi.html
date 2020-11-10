@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!-- Meta information -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><!-- Mobile Specific Metas -->
+    
+    <!-- Title -->
+    <title>Venue List</title>
+    
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/Favicon.png">
+    
+    <!-- CSS Stylesheet -->
+    <link href="css/bootstrap.css" rel="stylesheet"><!-- bootstrap css -->
+    <link href="css/owl.carousel.css" rel="stylesheet"><!-- carousel Slider -->
+    <link href="css/styles.css" rel="stylesheet" /><!-- font css --> 
+    <link href="css/jquery.selectbox.css" rel="stylesheet" /><!-- select Box css -->
+    <link href="css/datepicker.css" rel="stylesheet" /><!-- Date picker css --> 
+    <link href="css/docs.css" rel="stylesheet"><!--  template structure css -->
+    
+    <!-- Used Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Domine:400,700%7COpen+Sans:300,300i,400,400i,600,600i,700,700i%7CRoboto:400,500" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="inner-page">
+	<div class="page">
+    	<header id="header">
+            <div class="quck-link">
+                <div class="container">
+                    <div class="mail"><a href="MailTo:info@eventplanning.com"><span class="icon icon-envelope"></span>info@manageevents.com</a></div>
+                    <div class="right-link">
+                        <ul>
+                            
+                            
+                           
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+            <nav id="nav-main">
+                <div class="container">
+                    <div class="navbar navbar-inverse">
+                        <div class="navbar-header">
+                            <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt=""></a>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon1-barMenu"></span>
+                                <span class="icon1-barMenu"></span>
+                                <span class="icon1-barMenu"></span>
+                            </button>
+                            
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+								<li class="single-col">
+									<a href="index3.html">Home</a>
+									
+								</li>
+								<li><a href="aboutUs.html">About Us</a></li>
+								<li>
+									<a href="#">Services <span class="icon icon-arrow-down"></span></a>
+                                    <ul>
+                                        <li><a href="caterer_services.html">Caterers</a></li>
+                                       
+                                        <li><a href="decorations_services.html">Decorations</a></li>
+                                       
+                                        <li><a href="wed_services.html">Wedding Planner</a></li>
+                                        
+                                       
+                                        <li><a href="enter_services.html">Entertainment and DJ</a></li>
+                                        <li><a href="photo_services.html">Photographers</a></li>
+                                    
+                                       
+                                    </ul>
+								</li>
+								<li class="single-col">
+									<a href="#">Pages <span class="icon icon-arrow-down"></span></a>
+									<ul>
+										<li><a href="search-result.html">Listing Page</a></li>
+										<li><a href="search_detail.html">Details Page</a></li>
+										
+										<li>
+											<a href="booking_step1.html">Booking Step </a>
+											
+										</li>
+										
+										<li>
+											<a href="account_profile.html">My Account <span class="icon icon-arrow-right"></span></a>
+											<ul>
+												<li><a href="account_profile.html">Profile</a></li>
+												<li><a href="account_booking.html">Orders</a></li>
+												<li><a href="account_password.html">Change Password</a></li>
+											</ul>
+										</li>
+									
+										
+										
+									</ul>
+								</li>
+								
+								<li><a href="contact.html">Contact us</a></li>
+							</ul>
+                            <div class="search-box">
+                                <div class="search-icon"><span class="icon icon-search"></span></div>
+                                <div class="search-view">
+                                    <div class="input-box">
+                                        <form>
+                                            <input type="text" placeholder="Search here">
+                                            <input type="submit" value="" >
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+       
+        
+        
+
+            <section class="content">
+                <div class="breadcrumb">
+                    <div class="container">
+                        <ul>
+                            <li><a href="#">Home</a>/</li>
+                            <li><a href="#">Venues</a>/</li>
+                            <li class="active"><a href="#">Recent</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="venues-view">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="left-side">
+                                    <div class="search">
+                                        <div class="search-icon"><div class="icon icon-search"></div></div>
+                                        <input type="text" placeholder="Search by name">
+                                    </div>
+                                    <div class="filter-view">
+                                        <div class="filter-block">
+                                            <div class="title">
+                                                <h2>Food And Drinks</h2>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-20"><input type="checkbox" name="sample-checkbox-01" id="checkbox-20" value="1">Non Vegetarian</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-21"><input type="checkbox" name="sample-checkbox-01" id="checkbox-21" value="1">Vegetarian</label>
+                                            </div>
+                                        </div>
+                                        <div class="filter-block">
+                                            <div class="title">
+                                                <h2>Number of Guests</h2>
+                                                <div class="reste-filter">
+                                                    <a href="#"><span class="icon icon-reset"></span>Reset</a>
+                                                </div>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-22"><input type="checkbox" name="sample-checkbox-01" id="checkbox-22" value="1">&lt; 10</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-23"><input type="checkbox" name="sample-checkbox-01" id="checkbox-23" value="1">10 - 100</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-24"><input type="checkbox" name="sample-checkbox-01" id="checkbox-24" value="1">100 - 200</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-25"><input type="checkbox" name="sample-checkbox-01" id="checkbox-25" value="1" checked="">200 - 500</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-26"><input type="checkbox" name="sample-checkbox-01" id="checkbox-26" value="1" >&gt; 500</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="left-productBox hidden-sm">
+                                        <h2>Featured Venues</h2>
+                                        <div class="product-img"><img src="images/property-img/dl11.jpg" alt=""></div>
+                                        <h3>Le Meridien </h3>
+                                        <p>Windsor Palace,New Delhi</p>
+                                        <div class="reviews">4.5 <div class="star"><div style="width:70%;" class="fill"></div></div>reviews</div>
+                                        <a href="venue_delhi.html">View all Details <span class="icon icon-arrow-right"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-lg-9 col-sm-12">
+                                <div class="right-side">
+									<div class="toolbar">
+                                        <div class="left-link">
+                                        <h3><i> <b>Cities</b></i></i></h3>
+                                        
+                                           <a href="search-result.html"><span class="icon icon-arrow-right"></span>Bhopal &nbsp &nbsp &nbsp </a>
+                                           <a href="search-indore.html"><span class="icon icon-arrow-right"></span>Indore &nbsp &nbsp &nbsp</a>
+                                           <a href="mumbai-results.html"><span class="icon icon-arrow-right"></span>Bombay &nbsp &nbsp &nbsp</a>
+                                           <a href="search-delhi.html"><span class="icon icon-arrow-right"></span>Delhi &nbsp &nbsp &nbsp</a>
+                                                                                     
+                                        
+										</div>
+                                        
+                                    </div>
+                                    <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/dl11.jpg" alt=""></div>
+                                        <div class="text">
+                                            <h3>Le Meridien </h3>
+                                            <div class="address">Windsor Palace,New Delhi,110001</div>
+                                            <div class="reviews">4.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div>
+                                            <div class="outher-info">
+                                                <div class="info-slide first">
+                                                    <label>Seating Capacity</label>
+                                                    <span>300 - 350</span>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Price Range</label>
+                                                    <span>INR 150000 <small>(Onwards)</small></span>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Hotel Star Rating</label>
+                                                    <div class="star">
+                                                        <div class="fill" style="width:61%;"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Min. Booking Amount</label>
+                                                    <span>INR 50000 <small>(onwards)</small></span>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="outher-link">
+                                                <ul>
+                                                   
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Add to Wishlist</a></li>
+                                                   
+                                                </ul>
+                                            </div>
+                                            <div class="button">
+                                                <a href="booking_step1.html" class="btn">Book Now</a>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/dl2.jpg" alt=""></div>
+                                        <div class="text">
+                                            <h3>Novotel Aerocity </h3>
+                                            <div class="address">Asset no2,IGI Airpot,New Delhi,110037</div>
+                                            <div class="reviews">4.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div>
+                                            <div class="outher-info">
+                                                <div class="info-slide first">
+                                                    <label>Seating Capacity</label>
+                                                    <span>400 - 450</span>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Price Range</label>
+                                                    <span>INR 190000 <small>(Onwards)</small></span>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Hotel Star Rating</label>
+                                                    <div class="star">
+                                                        <div class="fill" style="width:61%;"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Min. Booking Amount</label>
+                                                    <span>INR 50000 <small>(onwards)</small></span>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="outher-link">
+                                                <ul>
+                                                   
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Add to Wishlist</a></li>
+                                                   
+                                                </ul>
+                                            </div>
+                                            <div class="button">
+                                                <a href="booking_step1.html" class="btn">Book Now</a>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/dl3.jpg" alt=""></div>
+                                        <div class="text">
+                                            <h3>Crown Plaza </h3>
+                                            <div class="address">Twin District Centre,New Delhi,110085</div>
+                                            <div class="reviews">4.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div>
+                                            <div class="outher-info">
+                                                <div class="info-slide first">
+                                                    <label>Seating Capacity</label>
+                                                    <span>300 - 350</span>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Price Range</label>
+                                                    <span>INR 130000 <small>(Onwards)</small></span>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Hotel Star Rating</label>
+                                                    <div class="star">
+                                                        <div class="fill" style="width:61%;"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Min. Booking Amount</label>
+                                                    <span>INR 40000 <small>(onwards)</small></span>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="outher-link">
+                                                <ul>
+                                                   
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Add to Wishlist</a></li>
+                                                   
+                                                </ul>
+                                            </div>
+                                            <div class="button">
+                                                <a href="booking_step1.html" class="btn">Book Now</a>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/dl4.jpg" alt=""></div>
+                                        <div class="img"><img src="images/property-img/dl4.jpg" alt=""></div>
+                                        <div class="text">
+                                            <h3>Pride Plaza Hotel </h3>
+                                            <div class="address">Asset 5A,Gandhi International Hospital,New Delhi,110037</div>
+                                            <div class="reviews">4.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div>
+                                            <div class="outher-info">
+                                                <div class="info-slide first">
+                                                    <label>Seating Capacity</label>
+                                                    <span>500 - 550</span>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Price Range</label>
+                                                    <span>INR 100000 <small>(Onwards)</small></span>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Hotel Star Rating</label>
+                                                    <div class="star">
+                                                        <div class="fill" style="width:61%;"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="info-slide">
+                                                    <label>Min. Booking Amount</label>
+                                                    <span>INR 30000 <small>(onwards)</small></span>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="outher-link">
+                                                <ul>
+                                                   
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Add to Wishlist</a></li>
+                                                   
+                                                </ul>
+                                            </div>
+                                            <div class="button">
+                                                <a href="booking_step1.html" class="btn">Book Now</a>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                        
+                                        <div class="modal fade modal-vcenter" id="contactModal4" tabindex="-1" role="dialog" >
+                                            <div class="modal-dialog contactvendor-popup" role="document">
+                                                <div class="modal-content">
+                                                    <div class="close-icon" aria-label="Close" data-dismiss="modal" ><img src="images/close-icon.png" alt=""></div>
+                                                    <h1>Mariom Banquet</h1>
+                                                    <div class="note">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+                                                    <div class="row">	
+                                                        <div class="col-sm-6">
+                                                            <div class="input-slide">
+                                                                <input type="text" placeholder="First Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="input-slide">
+                                                                <input type="text" placeholder="Last Name ">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="input-slide">
+                                                                <input type="text" placeholder="Email ID">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="input-slide">
+                                                                <input type="text" placeholder="Phone Number">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-12">
+                                                            <div class="input-slide">
+                                                                <textarea placeholder="Message"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-12">
+                                                            <div class="submit-slide">
+                                                                <input type="submit" value="Send" class="btn">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pagination">
+                                        <ul>
+                                            <li class="prev disabled"><a href="#">Prev</a></li>
+                                            <li class="active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            
+                                            <li class="next"><a href="#">Next</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                           
+                           
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3 text-center">
+                            <div class="footer-link">
+                                <h5>Company</h5>
+                                <ul>
+                                    <li><a href="aboutUs.html">About Us</a></li>
+                                    
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                            <div class="footer-contact">
+                                <h5>Contact us</h5>
+                                <div class="contact-slide">
+                                    <div class="icon icon-location-1"></div>
+                                    <p>74,Bharti Estate, MP Nagar, Bhopal,MP,462001-India </p>
+                                </div>
+                                <div class="contact-slide">
+                                    <div class="icon icon-phone"></div>
+                                    <p>0755-2785436</p>
+                                </div>
+                               
+                                <div class="contact-slide">
+                                    <div class="icon icon-message"></div>
+                                    <a href="MailTo:info@eventplanning.com">info@manageevents.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                            <div class="contact-form">
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="js/jquery.form-validator.min.js"></script>
+	<script type="text/javascript" src="js/placeholder.js"></script>
+    <script type="text/javascript" src="js/coustem.js"></script>
+    
+</body>
+
+
+</html>
+
